@@ -73,7 +73,7 @@ ol {
   display: flex;
   flex-direction: column;
   max-height: 298px;
-  overflow: auto;  
+  overflow: auto; 
   gap: 30px;
 }
 
@@ -249,7 +249,7 @@ label:has(input:focus-visible) {
   opacity: 1;
 }
 
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
   border-bottom: 1px solid #fff;
 }
 
@@ -319,10 +319,4 @@ label:has(input:focus-visible) {
 
 .content__list-item {
   padding: 0 3px;
-}
-
-/*Прелоадеры*/
-
-.preloader {
-  position: absolute;
 }
